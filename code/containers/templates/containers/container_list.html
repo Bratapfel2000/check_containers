@@ -1,0 +1,12 @@
+<h1>All Containers</h1>
+
+
+{% for container in object_list %}
+
+<ul>
+<li>name: {{ container.container_name }}</li>
+<li>id: {{ container.container_id }}</li>
+<li>status: {{ container.container_status }}</li>
+</ul>
+{% endfor %}
+
