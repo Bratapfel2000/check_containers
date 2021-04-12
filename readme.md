@@ -13,7 +13,7 @@ Instructions
 </ul>
 <ul>
 2.) Find the Docker image here:
-<a href="https://hub.docker.com/repository/docker/paufourdm/container-check-image-2">https://hub.docker.com/repository/docker/paufourdm/container-check-image-1</a><br>
+<a href="https://hub.docker.com/repository/docker/paufourdm/container-check-image-2">https://hub.docker.com/repository/docker/paufourdm/container-check-image-2</a><br>
 <p>docker pull paufourdm/container-check-image-2</p>
 </ul>
 <ul>
