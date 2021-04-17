@@ -11,21 +11,28 @@ Instructions
 <ul>
 1.) Start Docker
 </ul>
-<ul>
-2.) Find the Docker image here:
-<a href="https://hub.docker.com/repository/docker/paufourdm/container-check-image-2">https://hub.docker.com/repository/docker/paufourdm/container-check-image-2</a><br>
-<p>docker pull paufourdm/container-check-image-2</p>
+<ul><br>
+2.) Enter in command line: <br> <br>
+<code>&nbsp;
+docker pull paufourdm/container-check-image-1:2</code><br><br>
+
+&nbsp;&nbsp;link to  dockerhub:
+<a href="https://hub.docker.com/r/paufourdm/container-check-image-1">https://hub.docker.com/repository/docker/paufourdm/container-check-image-1:2</a><br>
+<br> <br>
 </ul>
 <ul>
-3.) run docker image
+3.) enter in command line: <br> <br>
+&nbsp;<code>
+docker container run -d -p 8888:8888 -v /var/run/docker.sock:/var/run/docker.sock paufourdm/container-check-image-1:2docker ps
+</code>
 </ul>
 
-<ul>
-4.) open in browser <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a>
+<ul><br>
+4.) open in browser <a href="http://localhost:8888/">http://localhost:8888/</a>
 </ul>
 
 
-<ul>
+<ul><br>
 5.) 3 options show up:
 <ul>
 	i. ) will show containers with REST API and all containers saved in DB
