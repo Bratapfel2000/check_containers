@@ -23,7 +23,7 @@ docker pull paufourdm/container-check-image-1:2</code><br><br>
 <ul>
 3.) enter in command line: <br> <br>
 &nbsp;<code>
-docker container run -d -p 8888:8888 -v /var/run/docker.sock:/var/run/docker.sock paufourdm/container-check-image-1:2docker ps
+docker container run -d -p 8888:8888 -v /var/run/docker.sock:/var/run/docker.sock paufourdm/container-check-image-1:2
 </code>
 </ul>
 
